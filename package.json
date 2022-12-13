@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "moment": "^2.29.4",
-    "next": "12.2.3",
-    "phosphor-react": "^1.4.1",
+    "@next/font": "^13.0.6",
+    "next": "^13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-moment": "^1.1.2"
+    "react-moment": "^1.1.2",
+    "react-parallax-tilt": "^1.7.76",
+    "react-tilt": "^0.1.4"
   },
   "devDependencies": {
     "@types/node": "^18.0.6",

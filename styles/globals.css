@@ -34,50 +34,10 @@ p {
 
 body {
   color: #0e0e0e;
-  background: linear-gradient(-45deg, #e38b70, #e1b76e);
+  background: linear-gradient(-45deg, #0965c0, #c3e1fc, #f9e7bb);
   overflow: hidden;
-  background-size: 200% 200%;
-  animation: gradient 15s ease-in-out infinite;
-  -webkit-animation: gradient 15s ease infinite;
-  -moz-animation: gradient 15s ease infinite;
-}
-
-@media (prefers-color-scheme: light) {
-  html {
-    color-scheme: light;
-  }
-  body {
-    color: #0e0e0e;
-    background: linear-gradient(-45deg, #e38b70, #e1b76e);
-  }
-}
-
-@font-face {
-  font-family: 'SF';
-  src: url('../public/assets/fonts/sf/SFUIText-Regular.otf');
-}
-
-@font-face {
-  font-family: 'SF Medium';
-  src: url('../public/assets/fonts/sf/SFUIText-Medium.otf');
-}
-
-@font-face {
-  font-family: 'SF Bold';
-  src: url('../public/assets/fonts/sf/SFUIText-Bold.otf');
-}
-
-@font-face {
-  font-family: 'SF Mono';
-  src: url('../public/assets/fonts/sf/SFMonoRegular.otf');
-}
-
-@font-face {
-  font-family: 'SF Mono Medium';
-  src: url('../public/assets/fonts/sf/SFMonoMedium.otf');
-}
-
-@font-face {
-  font-family: 'SF Mono Bold';
-  src: url('../public/assets/fonts/sf/SFMonoBold.otf');
+  background-size: 150% 150%;
+  animation: gradient 10s ease-in-out infinite;
+  -webkit-animation: gradient 10s ease infinite;
+  -moz-animation: gradient 10s ease infinite;
 }

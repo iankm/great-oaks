@@ -1,14 +1,16 @@
 import '../styles/globals.css';
-import { useState } from 'react';
-import { FolderContext } from '../contexts/FolderContext';
+import { Questrial } from '@next/font/google';
+
+const questrial = Questrial({
+  weight: '400',
+  subsets: ['latin'],
+});
 
 function MyApp({ Component, pageProps }) {
-  const [folder, setFolder] = useState<string>('~');
-
   return (
-    <FolderContext.Provider value={{ folder, setFolder }}>
+    <main className={questrial.className}>
       <Component {...pageProps} />
-    </FolderContext.Provider>
+    </main>
   );
 }
 

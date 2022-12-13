@@ -3,10 +3,8 @@ import { Command } from '../types/command';
 import * as responses from './responses';
 
 export const prompts = (command: Command) => {
-  const { setFolder } = useFolderContext();
-  console.log(command);
+  const { folder, setFolder } = useFolderContext();
   const args = command.name.split(' ');
-  console.log(args);
   switch (args[0]) {
     case 'help':
       return responses.helpMenu();
@@ -23,7 +21,11 @@ export const prompts = (command: Command) => {
       return responses.list(command.folder);
     case 'cd':
       if (args[1]) {
-        return setFolder(args[1]);
+        if (args[1] === '..' && folder == '~') {
+          return setFolder('/');
+        } else {
+          break;
+        }
       } else {
         return responses.needArg();
       }
