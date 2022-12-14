@@ -96,6 +96,18 @@ export default function Portfolio() {
             >
               info@greatoaksvc.com
             </a>
+            <a
+              href="tel:2128211800"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                flex: 1,
+                margin: '0 auto',
+                textAlign: 'center',
+              }}
+            >
+              (212) 821-1800
+            </a>
           </div>
         </div>
       </main>
