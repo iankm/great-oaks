@@ -32,7 +32,6 @@ export default function Portfolio() {
             style={{
               flex: 1,
               margin: '0 auto',
-              whiteSpace: 'nowrap',
             }}
           >
             New Website Coming Soon
