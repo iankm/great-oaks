@@ -206,6 +206,19 @@
   align-items: center;
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 8px 0 0 0;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {

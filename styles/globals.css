@@ -34,7 +34,7 @@ p {
 
 body {
   color: #0e0e0e;
-  background: linear-gradient(-45deg, #0965c0, #c3e1fc, #f9e7bb);
+  background: linear-gradient(320deg, #0965c0, #c3e1fc, #f9e7bb);
   overflow: hidden;
   background-size: 150% 150%;
   animation: gradient 10s ease-in-out infinite;
